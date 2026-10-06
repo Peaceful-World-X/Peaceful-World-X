@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="156" viewBox="0 0 440 156" fill="none" role="img" aria-labelledby="daily-title daily-desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="daily-title">Daily ArXiv VLA — a searchable paper feed</title>
+  <desc id="daily-desc">Search VLA papers through daily cards with Chinese summaries. A decorative radar surrounds paper cards, not measured activity. The entire card links to the live project.</desc>
+  <style>
+    .scan { transform-origin: 348px 103px; animation: orbit 24s linear infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x=".5" y=".5" width="439" height="155" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 .5H94" stroke="#56d4dd" stroke-opacity=".7"/>
+  <text x="20" y="26" fill="#9aaabc" font-size="13" letter-spacing="1">04 / VLA PAPER RADAR</text>
+  <path d="m404 27 13-13m-11 0h11v11" stroke="#56d4dd" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="20" y="64" fill="#e6edf3" font-size="27" font-weight="700" letter-spacing="-.6">Daily ArXiv VLA</text>
+  <text x="20" y="101" fill="#e6edf3" font-size="18">Search VLA papers.</text>
+  <text x="20" y="128" fill="#9aaabc" font-size="18">Daily cards + Chinese summaries.</text>
+  <g aria-hidden="true" transform="translate(178 25) scale(.56)" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="348" cy="103" r="45" fill="#56d4dd" fill-opacity=".04" stroke="#30363d"/>
+    <circle cx="348" cy="103" r="32" stroke="#30363d" stroke-dasharray="2 5"/>
+    <path d="M297 103H399M348 52V154" stroke="#30363d"/>
+    <g class="scan">
+      <path d="M348 103L390 87A45 45 0 0 0 373 66Z" fill="#56d4dd" fill-opacity=".06"/>
+      <path d="M348 103L390 87" stroke="#56d4dd" stroke-opacity=".45" stroke-width="1.5"/>
+      <circle cx="390" cy="87" r="2.5" fill="#56d4dd"/>
+    </g>
+    <circle cx="308" cy="124" r="3" fill="#0d1117" stroke="#56d4dd" stroke-width="2"/>
+    <rect x="377" y="127" width="5" height="5" rx="1" fill="#a5a0ff"/>
+    <rect x="330" y="65" width="51" height="66" rx="5" transform="rotate(11 330 65)" fill="#0d1117" stroke="#30363d"/>
+    <rect x="323" y="71" width="51" height="66" rx="5" fill="#161b22" stroke="#9aaabc" stroke-width="1.5"/>
+    <rect x="329" y="77" width="39" height="27" rx="3" fill="#0d1117" stroke="#30363d"/>
+    <path d="M334 99H362M339 99V92L345 86L353 90L357 96" stroke="#56d4dd" stroke-width="2"/>
+    <circle cx="345" cy="86" r="2.5" fill="#0d1117" stroke="#56d4dd" stroke-width="1.5"/>
+    <path d="M357 96L361 93M357 96L360 100" stroke="#a5a0ff" stroke-width="2"/>
+    <path d="M330 112H365M330 118H358M330 124H350" stroke="#9aaabc" stroke-width="2"/>
+    <rect x="281" y="62" width="41" height="28" rx="8" fill="#161b22" stroke="#30363d"/>
+    <circle cx="296" cy="74" r="5" stroke="#e6edf3" stroke-width="2"/>
+    <path d="M300 78L306 83" stroke="#56d4dd" stroke-width="2"/>
+  </g>
+</svg>

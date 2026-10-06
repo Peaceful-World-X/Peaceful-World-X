@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="156" viewBox="0 0 440 156" fill="none" role="img" aria-labelledby="ace-title ace-desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="ace-title">Action Chunking — ACE interactive policy explorer</title>
+  <desc id="ace-desc">Explore action-chunking mechanisms through parameters, timing and conceptual demonstrations, not experimental results. The entire card links to the live project.</desc>
+  <style>
+    .focus { animation: step 9s ease-in-out infinite; }
+    .later { animation-delay: -3s; }
+    @keyframes step { 0%, 100% { opacity: .45; } 45%, 65% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x=".5" y=".5" width="439" height="155" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <path d="M20 .5H94" stroke="#56d4dd" stroke-opacity=".7"/>
+  <text x="20" y="26" fill="#9aaabc" font-size="13" letter-spacing="1">03 / ACE · POLICY EXPLORER</text>
+  <path d="m404 27 13-13m-11 0h11v11" stroke="#56d4dd" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="20" y="64" fill="#e6edf3" font-size="27" font-weight="700" letter-spacing="-.6">Action Chunking</text>
+  <text x="20" y="101" fill="#e6edf3" font-size="18">Interactive policy mechanisms.</text>
+  <text x="20" y="128" fill="#9aaabc" font-size="18">Parameters, timing and demos.</text>
+  <g aria-hidden="true" transform="translate(178 25) scale(.56)" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="270" y="54" width="146" height="94" rx="10" fill="#161b22" stroke="#30363d"/>
+    <path d="M280 70H328M347 70H405" stroke="#30363d" stroke-width="2"/>
+    <path d="M280 70H302M347 70H385" stroke="#9aaabc" stroke-width="2"/>
+    <circle cx="302" cy="70" r="4" fill="#161b22" stroke="#56d4dd" stroke-width="2"/>
+    <circle cx="385" cy="70" r="4" fill="#161b22" stroke="#a5a0ff" stroke-width="2"/>
+    <path d="M280 84H406" stroke="#30363d"/>
+    <rect x="281" y="91" width="76" height="16" rx="4" fill="#56d4dd" fill-opacity=".08" stroke="#56d4dd" stroke-opacity=".65"/>
+    <path d="M306 94V104M331 94V104" stroke="#56d4dd" stroke-opacity=".45"/>
+    <rect class="focus" x="282" y="92" width="23" height="14" rx="3" fill="#56d4dd" fill-opacity=".6"/>
+    <rect x="307" y="116" width="99" height="16" rx="4" fill="#a5a0ff" fill-opacity=".08" stroke="#a5a0ff" stroke-opacity=".75"/>
+    <path d="M332 119V129M357 119V129M382 119V129" stroke="#a5a0ff" stroke-opacity=".5"/>
+    <rect class="focus later" x="333" y="117" width="23" height="14" rx="3" fill="#a5a0ff" fill-opacity=".55"/>
+    <path d="M284 110V113H304M301 110L304 113L301 116M280 140H404M400 137L404 140L400 143" stroke="#9aaabc" stroke-width="1.5"/>
+  </g>
+</svg>
