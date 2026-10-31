@@ -11,15 +11,19 @@
   <a href="https://github.com/Peaceful-World-X"><img src="https://visitor-badge.laobi.icu/badge?page_id=Peaceful-World-X&amp;left_color=%23161b22&amp;right_color=%230891b2&amp;left_text=Profile%20Views&amp;height=20" height="20" align="absmiddle" alt="Profile views" title="Cumulative image loads, not unique visitors; GitHub caching may affect the count" /></a>
 </p>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="./img/profile/intro-mobile.svg" />
+  <img src="./img/profile/intro-desktop.svg" width="100%" alt="Hi, I'm Wenyao — an embodied AI researcher in Beijing, China. Creating Silicon Life, Awakening Its Soul. Research focus: VLA, WAM, Reinforcement Learning, Action Chunking, and Real-Robot Learning. Research in practice: SFT/RL post-training and data loops; real-time robot control and deployment; Embodied RSI/Harness with memory, recovery, and feedback-driven adaptation." />
+</picture>
+
+<p align="left"><sub>EDUCATION &amp; EXPERIENCE</sub></p>
+
 <p align="left">
-  👋 Hi, I'm Wenyao — an embodied AI researcher.<br>
-  🤖 VLA · WAM · Reinforcement Learning · Action Chunking · Real-Robot Learning<br>
-  <a href="https://ev.buaa.edu.cn/"><img src="./img/logos/buaa.svg" width="20" height="20" align="absmiddle" alt="BUAA seal" />&nbsp;M.Sc. @ BUAA</a> · Beijing, China<br>
-  Experience across
-  <a href="https://www.antgroup.com/en"><img src="./img/logos/ant-group.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;Ant Group</a> ·
-  <a href="https://gigaai.cc/"><img src="./img/logos/gigabrain-team.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;GigaBrain</a> ·
-  <a href="https://www.noetixrobotics.com/en/"><img src="./img/logos/noetix.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;Noetix</a> ·
-  <a href="https://cybopal.com/"><img src="./img/logos/cybopal-team.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp;Cybopal</a>
+  <a href="https://ev.buaa.edu.cn/" title="M.Sc. at Beihang University"><img src="./img/profile/buaa.svg" height="34" align="absmiddle" alt="M.Sc. @ BUAA" /></a>
+  <a href="https://www.antgroup.com/en" title="Experience at Ant Group"><img src="./img/profile/ant-group.svg" height="34" align="absmiddle" alt="Ant Group" /></a>
+  <a href="https://gigaai.cc/" title="Experience at GigaBrain"><img src="./img/profile/gigabrain-team.svg" height="34" align="absmiddle" alt="GigaBrain" /></a>
+  <a href="https://www.noetixrobotics.com/en/" title="Experience at Noetix"><img src="./img/profile/noetix.svg" height="34" align="absmiddle" alt="Noetix" /></a>
+  <a href="https://cybopal.com/" title="Experience at Cybopal"><img src="./img/profile/cybopal-team.svg" height="34" align="absmiddle" alt="Cybopal" /></a>
 </p>
 
 <h3 align="left">🚀 Open-source lab · Click a card to explore</h3>
@@ -37,10 +41,6 @@
   <a href="https://github.com/Peaceful-World-X/LeRobot_TraceLab">TraceLab</a> ·
   <a href="https://github.com/Peaceful-World-X/Action-Chunking-Survey">Action Chunking</a> ·
   <a href="https://github.com/Peaceful-World-X/daily-arxiv-vla">Daily VLA</a>
-</p>
-
-<p align="left">
-  🛠️ Tools · <code>Python</code> · <code>PyTorch</code> · <code>C++</code> · <code>LeRobot</code> · <code>MuJoCo</code> · <code>Linux</code> · <code>Docker</code> · <code>Git</code>
 </p>
 
 <!-- Top badges use native 20px SVGs. Avoid density descriptors in external srcset URLs: GitHub's image proxy may treat them as part of the URL. -->
